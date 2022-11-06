@@ -1,7 +1,7 @@
 <h1 align="center"> Barbearia </h1>
 
 <p align="center">
-Site desenvolvido seguindo o HTML5 E CSS3 PARTE 1: CRIE UMA PÁGINA DA WEB da Alura, para ensino de tecnologias WEB
+Site desenvolvido pelo frameworks HTML5 E CSS3 pelo curso da Alura, para ensino de tecnologias WEB
 </p>
 
 <p align="center">
