@@ -1,86 +1,124 @@
-
 header{
-    background-color: #cccccc;
+    background-color: #bbbbbb;
+    padding: 20px;
+
 }
 
-.header-adjust{
+.box{
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
-.img-header{
-    padding: 20px;
-    width: 130px;
-}
-
-.titulo-principal{
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 20px;
+nav{
     position: absolute;
-    top: 80px;
-    right: 305px;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-centralizado{
-    text-align: center;
+nav li{
+    display: inline;
+    margin-left: 15px;
 }
 
-#banner{
-    width: 100%;
-    margin: 5px 0px;
-    
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-.principal{
-    background-color: #cccccc;
-    padding: 30px;
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
 }
 
-
-p{
-    font-size: 20px;
-    text-align: center;
-    
+.products{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-#missao{
-    font-size: 20px;
-}
-
-
-em strong{
-    color: red;
-}
-
-.beneficios{
-    background-color: white;
-    padding: 20px;
-}
-
-.itens{
-    font-style: italic;
-}
-
-ul{
+.products li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.imagembeneficios{
-    width: 50%;
+
+.products li:hover{
+    border-color: #C78C19;
+}
+
+.products li:active{
+    border-color: #088C19;
+    
+}
+
+.products li:hover h2{
+    font-size: 35px;
+}
+
+.products h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.products-description{
+    font-size: 18px;
+}
+
+.products-price{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer{
-    background: url(/imgs/bg.jpg);
     text-align: center;
+    background: url("imgs/bg.jpg");
     padding: 40px 0;
 }
 
-.copyright{
-    color: white;
+.copyright {
+    color: #FFFFFF;
     font-size: 13px;
+    margin: 29;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 0 0 10px;
+}
+
+.radio-style{
+    margin-bottom: 13px;
+}
+
+.input-padrao{
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
 }
