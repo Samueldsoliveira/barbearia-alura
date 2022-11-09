@@ -308,6 +308,10 @@ td, th{
         margin-left: 25px;
     }
 
+    .input-padrao{
+        margin-left: 20px;
+    }
+
     fieldset select{
         margin-left: 27px;
     }
@@ -322,6 +326,8 @@ td, th{
 
     .enviar{
         margin: 20px;
+        margin-top: -2px;
+        margin-left: 30px;
     }
 
     table{
