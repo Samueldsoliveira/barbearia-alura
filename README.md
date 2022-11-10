@@ -13,11 +13,15 @@ Site desenvolvido pelo frameworks HTML5 E CSS3 pelo curso da Alura, para ensino 
 
 
 <p align="center">
-  <img alt="barbearia image1" src=".github/barbearia1.jpeg" width="100%">
+  <img alt="formulario image1" src=".github/formulario.jpeg" width="100%">
 </p>
 
 <p align="center">
-  <img alt="barbearia image2" src=".github/barbearia2.jpeg" width="100%">
+  <img alt="produtos mobile image2" src=".github/produtos.jpeg" width="40%">
+</p>
+
+<p align="center">
+  <img alt="mapa image2" src=".github/mapa.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
